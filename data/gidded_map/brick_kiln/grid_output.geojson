@@ -3,7 +3,6 @@
 "name": "grid_output",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "grid_x": -1221, "grid_y": 374, "value": 6 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -122.0, 37.4 ], [ -122.0, 37.5 ], [ -122.1, 37.5 ], [ -122.1, 37.4 ], [ -122.0, 37.4 ] ] ] } },
 { "type": "Feature", "properties": { "grid_x": 686, "grid_y": 232, "value": 1 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 68.7, 23.2 ], [ 68.7, 23.3 ], [ 68.6, 23.3 ], [ 68.6, 23.2 ], [ 68.7, 23.2 ] ] ] } },
 { "type": "Feature", "properties": { "grid_x": 687, "grid_y": 241, "value": 1 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 68.8, 24.1 ], [ 68.8, 24.2 ], [ 68.7, 24.2 ], [ 68.7, 24.1 ], [ 68.8, 24.1 ] ] ] } },
 { "type": "Feature", "properties": { "grid_x": 693, "grid_y": 221, "value": 1 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 69.4, 22.1 ], [ 69.4, 22.2 ], [ 69.3, 22.2 ], [ 69.3, 22.1 ], [ 69.4, 22.1 ] ] ] } },

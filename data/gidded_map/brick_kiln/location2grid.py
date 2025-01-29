@@ -45,6 +45,9 @@ def point_to_grid(geo_df, value_col, box_size):
 # Load point data
 gdf = gpd.read_file("kiln_location.geojson")  # Replace with actual file path
 gdf['value'] = 1
+# check lon, remove the point outside india
+gdf = gdf[gdf['geometry'].x > 68.0]
+gdf = gdf[gdf['geometry'].x < 97.0]
 
 # Convert to grid with box size (e.g., 500 meters)
 grid_gdf = point_to_grid(gdf, value_col="value", box_size=0.1)  # Replace with actual box size
