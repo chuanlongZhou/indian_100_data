@@ -1,0 +1,35 @@
+# VSCode-specific files
+.vscode/*
+!.vscode/settings.json  # Keep settings if needed
+*.code-workspace
+*.history
+
+# Python-related temporary files
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.pytest_cache/
+.Python
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+.DS_Store
+
+*.py
+*.ipynb
+
+# Folder named "XX"
+temp/
+archive/
