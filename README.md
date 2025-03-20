@@ -18,3 +18,5 @@ How to update data
 4.  CSV files under: data/summary_time_series
 
    Daily total emission for a city - > sum of the city grids under: data/gidded_data
+
+5. all the units for CO2 emission is kt.
